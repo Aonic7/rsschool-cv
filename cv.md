@@ -7,7 +7,7 @@
 **Skills:** Java, R, Visual Basic, JavaScript, HTML, CSS, SQL, SAP MM, SAP SD, Kanban, Scrum, Asana, Jira, Trello, Git, ArcGiS
 
 **Code examples:** 
-    ```
+        ```
         int check=0;
         int[] coordinatesArray = new int[strArray.length];
         for (int i = 0; i < coordinatesArray.length; i++) {
@@ -27,4 +27,10 @@
         } else {
             return check=1;
         }
-    ``` 
+        ``` 
+**Experience:** *Oct 2019 - present* - Danone,Russia
+                 Business System Analyst        
+
+**Education:** MSc Information Systems - Kingston University 
+
+**English:** IELTS 7.5 
