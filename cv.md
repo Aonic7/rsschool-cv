@@ -6,7 +6,9 @@
 
 **Skills:** Java, R, Visual Basic, JavaScript, HTML, CSS, SQL, SAP MM, SAP SD, Kanban, Scrum, Asana, Jira, Trello, Git, ArcGiS
 
-**Code examples:** ` int check=0;
+**Code examples:** 
+    ```
+        int check=0;
         int[] coordinatesArray = new int[strArray.length];
         for (int i = 0; i < coordinatesArray.length; i++) {
             try {
@@ -25,4 +27,4 @@
         } else {
             return check=1;
         }
-    }` 
+    ``` 
