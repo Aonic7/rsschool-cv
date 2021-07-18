@@ -32,6 +32,7 @@
         ``` 
 
 **Experience:** *Oct 2019 - present* - Danone,Russia
+                 
                  Business System Analyst        
 
 **Education:** MSc Information Systems - Kingston University 
