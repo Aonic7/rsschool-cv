@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <title>Kussainov_CV</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="This page is Kussainov_CV">
     <meta name="author" content="Adilkhan Kussainov">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -18,27 +19,126 @@
     <header>
         <div class="cvtitle">
             <h1 id="name">Adilkhan Kussainov</h1>
-            <h2 id="position"> Frontend Developer </h2>
+            <h2 id="position"> Software Developer </h2>
         </div>
     </header>
 
     <aside id="slidebar">
-        <div class="foto"></div>
-        <dev class="contact"> </dev>
-        <dev class="education"></dev>
-        <dev class="language"></dev>
-    </aside>
+        <section class="foto"></section>
+        <section class="contact">
+            <ul class="contact1">
+                <li>
+                    <div class="contactype">
+                        <img src="email.svg" alt="my email" height="30" width="35" style="vertical-align:middle"> arsenal.rvp41@gmail.com
+                    </div>
+                </li>
+                <li>
+                    <div class="contactype">
+                        <img src="Github.svg" alt="my github" height="30" width="35" style="vertical-align:middle"> <a href="https://github.com/Aonic7">My Github</a></div>
+                </li>
+                <li>
+                    <div class="contactype">
+                        <img src="linkedin.svg" alt="my linkedin" height="30" width="35" style="vertical-align:middle"> <a href="https://www.linkedin.com/in/adilkhankussainov/">Connect on Linkedin</a></div>
+                </li>
+            </ul>
+        </section>
 
-    <section id="workexperience"></section>
+        <section class="boarder1"> </section>
+
+        <section class="education">
+            <h1>Education</h1>
+            <h2 class="edu"> 2018 - 2019</h2>
+            <h2 class="major">MSc. Information Systems</h2>
+            <h2 class="uni">Kingston University</h2>
+            <h2 class="edu"> 2014 - 2018</h2>
+            <h2 class="major">BTech. Automation and Control</h2>
+            <h2 class="uni">Karaganda State Technical University</h2>
+        </section>
+        <section class="boarder2"> </section>
+        <section class="language">
+            <h1>Languages</h1>
+            <h2 class="language1">Kazakh - Native</h2>
+            <h2 class="language1">Russian - Native</h2>
+            <h2 class="language1">English - IELTS 7.5</h2>
+            <h2 class="language1">German - A1</h2>
+        </section>
+    </aside>
     <article id="aboutme">
         <p>I have two years of hands-on experience on SAP as a Business System Analyst. Specifically, SAP MM and SD modules. Moreover, I have project leading experience and passed agile foundation certification. Currently, I am eager to switch my career
-            towards a front end developer career path. I love challenges, learning new things and my background as a system analyst should be helpful on my way to concur new occupation.</p>
+            towards a frontend developer career path. I love challenges, learning new things and my background as a system analyst should be helpful on my way to concur new occupation.</p>
+
+        <p id="skills">
+            Java, R, Visual Basic, JavaScript, HTML, CSS, SQL, SAP MM, SAP SD, Kanban, Scrum, Asana, Jira, Trello, Git, ArcGiS,Figma, UML, BPMN
+        </p>
     </article>
 
+    <main>
+        <section id="workexperience">
+            <h1>Work experience</h1>
+            <h2 class="year">
+                Oct 2019 -Currently
+            </h2>
+            <p class="job1">Danone Russia - Business System Analyst </p>
+            <ul class=features>
+                <li>Supported key and end-users on SAP MM, SD, APO modules.</li>
+                <li>Analysed business processes and found correct solutions to mitigate issues happening in IS systems</li>
+                <li>Maintained continuous operations of IS in logistics, planning and procurement</li>
+                <li>Executed testing for integration of new business processes</li>
+                <li>Successfully interpreted business needs to the development team</li>
+            </ul>
+
+            <h2 class="year">
+                Dec 2016 -May 2018
+            </h2>
+
+            <p class="job1">Ligarobotov - Teacher of educational robotics </p>
+            <ul class="features">
+                <li>Assessed and looked after three groups of junior school children's progress throughout the term and work closely with other staff to plan and coordinate efficiently teaching process.</li>
+                <li>Provided informative presentation to students regarding Scratch 2.0 and LegoMindstorm programming.</li>
+                <li>Was responsible for ensuring that all students fully comprehended the taught curriculum and provided support to students who required extra guidance.</li>
+                <li>Conducted classes for overall 36 students in three different age groups, who participated in various regional competitions.</li>
+            </ul>
+        </section>
+        <section id="code">
+            <h1>Example of code</h1>
+            <pre id="codep1">
+                int check=0;
+                int[] coordinatesArray = new int[strArray.length];
+                for (int i = 0; i &lt; coordinatesArray.length; i++) {
+                    try {
+                        coordinatesArray[i] = Integer.parseInt(strArray[i]);
+                        if((coordinatesArray[i]>=1&&coordinatesArray[i]&lt;=3)==false){
+                            return check=3;
+                        }
+                    }catch (NumberFormatException strArr) {
+                        return check=2;
+                    }
+                }
+                int x = coordinatesArray[0]-1;
+                int y = coordinatesArray[1]-1;
+                if (field[x][y] == 88||field[x][y]==79) {
+                  return check=4;
+                } else {
+                    return check=1;
+                }
+            </pre>
+        </section>
+    </main>
     <footer>
-
+        <section id="footer1">
+            <section id="githubfooter">
+                <img src="Github.svg " alt="my github " height="50" width="50" style="vertical-align:middle">
+                <a href="https://github.com/Aonic7">My Github</a>
+            </section>
+            <section id="rsschool">
+                <img src="rs_school_js.svg" alt="rsschool_icon" height="50" width="50" style="vertical-align:middle">
+                <a href="https://rs.school/js-stage0/">RS School Course</a>
+            </section>
+            <section id="yearfooter">
+                ©2021 Adlkhan Kussainov
+            </section>
+        </section>
     </footer>
-
 </body>
 
 </html>
